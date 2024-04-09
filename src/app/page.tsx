@@ -18,11 +18,17 @@ import Main from "./components/molecules/main";
 import Mainprincipal from "./components/organisms/mainprincipal";
 import Part1 from "./components/complex organisms/part1";
 import Part2 from "./components/complex organisms/part2";
-
+import Foto from "./components/atoms/foto";
+import Fotoproyecto from "./components/atoms/fotoproyecto";
+import Proyecto from "./components/molecules/proyecto";
+import Link from "./components/atoms/link";
+import Links from "./components/molecules/links";
+import Portafolio from "./components/organisms/Portafolio";
+import Page from "./components/page/page";
 export default function Home() {
   return (
-    <div className="flex flex-col max-w-[220px] absolute " >
-      <Part2/>
+    <div className="flex flex-col max-w-[220px] absolute "  > 
+      <Page/>  
         
     </div>
   );

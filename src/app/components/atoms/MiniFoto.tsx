@@ -5,8 +5,8 @@ export default function Minifoto() {
   const photoURL = "/foto1.png"
 
   return (
-    <div className="bg">
-      <div className="flex justify-center">
+    <div className="bg  flex flex-col justify-center items-center" >
+      <div>
        
         <img
           src={photoURL}

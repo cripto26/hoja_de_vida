@@ -2,9 +2,12 @@ import React from 'react';
 
 const Button = () => {
   return (
-    <button className="bg-blue-500 text-white px-4 py-2 w-154 h-51 transition-all hover:scale-105 rounded">
+    <div className='flex justify-start '>
+
+    <button className="bg-blue-500 text-white px-4 py-2  transition-all hover:scale-105 ">
       HIRE ME -&gt;
     </button>
+    </div>
   );
 };
 
